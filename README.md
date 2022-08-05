@@ -1,6 +1,4 @@
 # Ds Catalog
-![image](../../Users/ruatu/Desktop/DsCatalog.png)
-knitr::include_graphics("")
 ### 🛠 Technologies
 
 The following tools were used in building the project:
