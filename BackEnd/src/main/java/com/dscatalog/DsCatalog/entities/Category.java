@@ -1,18 +1,24 @@
 package com.dscatalog.DsCatalog.entities;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
+@Entity
+@Table(name = "tb_category")
 public class Category implements Serializable {
+    private static final long serialVersionUID = 1L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String Nome;
+    private String Name;
 
     public Category() {
     }
 
-    public Category(Long id, String Nome) {
+    public Category(Long id, String Name) {
         this.id = id;
-        this.Nome = Nome;
+        this.Name = Name;
     }
 
     public Long getId() {
@@ -24,11 +30,11 @@ public class Category implements Serializable {
     }
 
     public String getNome() {
-        return Nome;
+        return Name;
     }
 
-    public void setNome(String nome) {
-        Nome = nome;
+    public void setNome(String name) {
+        Name = name;
     }
 
     @Override
