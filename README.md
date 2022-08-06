@@ -1,6 +1,6 @@
 # Ds Catalog
+![image](https://user-images.githubusercontent.com/102878203/183225912-11b4d5ed-5195-4f73-88a2-f79efdd7fbf8.png)
 
-![image](https://raw.githubusercontent.com/Edu25664/imagens/main/DsCatalog.png?token=GHSAT0AAAAAABXKLLTDHXT3MSHY32O7NN7QYXM7ZXA)
 ### 🛠 Technologies
 
 The following tools were used in building the project:
