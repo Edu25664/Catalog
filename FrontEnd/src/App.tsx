@@ -1,6 +1,11 @@
 import './assets/Styles/custom.scss';
 import './App.css';
+import Navbar from 'components/Navbar/intex';
 function App() {
-  return ( <h1>Hello Ds catalog</h1> );
+  return (
+    <>
+    <Navbar/>
+    </>
+  );
 }
 export default App;
