@@ -1,11 +1,8 @@
 import './assets/Styles/custom.scss';
 import './App.css';
-import Navbar from 'components/Navbar/intex';
+import Home from 'Pages/Home';
+
 function App() {
-  return (
-    <>
-    <Navbar/>
-    </>
-  );
+  return <Home />;
 }
 export default App;
