@@ -1,8 +1,8 @@
 import './assets/Styles/custom.scss';
 import './App.css';
-import Home from 'Pages/Home';
+import Catalog from 'Pages/Catalog';
 
 function App() {
-  return <Home />;
+  return <Catalog></Catalog>;
 }
 export default App;
